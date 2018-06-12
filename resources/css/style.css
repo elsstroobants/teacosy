@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* header section */
+
+header {
+  height: 69px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px seashell;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  flex-grow: 1;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav span a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 20px 10px 20px 10px;
+}
+
+/*mission section*/
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+  background-image:url("../images/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+}
+.mission-text {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+h2, h4 {
+  padding: 10px;
+}
+
+/*  tea of the month section */
+
+#tea-of-the-month {
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  padding-top: 70px;
+  position: relative;
+  top: 70px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px 0 10px;
+}
+
+.item {
+  padding: 5px;
+  text-align: center;
+}
+
+/*locations section*/
+
+#locations {
+  width: 1200px;
+  height: 570px;
+  position: relative;
+  top: 70px;
+  margin: 0 auto;
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#locations h2 {
+  text-align: center;
+  padding-top: 70px;
+}
+
+#locations img {
+  height: 570px;
+  width: 1200px;
+}
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+}
+
+.location-box {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 277px;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.location-box h3, h4 {
+  text-align: center;
+}
+
+/*contact section*/
+
+.contact {
+  height: 200px;
+  position: relative;top: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+h5 {
+  padding: 15px;
+  font-weight: bold;
+}
+
+/*additional*/
+h4 {
+  font-weight: normal;
+}
+
+/*footer*/
+
+footer {
+  position: relative;
+  top: 70px;
+  margin-left: 5px;
+}
